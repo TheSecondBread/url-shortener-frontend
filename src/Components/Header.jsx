@@ -29,7 +29,7 @@ function Header() {
               URL shortener allows to create a shortened link making it easy to
               share
             </p>
-            <p>{currUrl}</p>
+            <a href={currUrl}  target="_blank">{currUrl}</a>
           </div>
         </div>
       </center>
